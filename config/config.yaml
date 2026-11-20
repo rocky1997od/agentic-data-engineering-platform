@@ -1,0 +1,13 @@
+application:
+  name: agentic-data-engineering-platform
+
+api:
+  host: 127.0.0.1
+  port: 8000
+
+pipeline:
+  retry_count: 3
+  request_timeout: 30
+
+agents:
+  execution_mode: mock
